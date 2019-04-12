@@ -29,6 +29,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+form{
+	display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
 body {
 	line-height: 1;
 }
@@ -383,6 +389,8 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
+		display: flex;
+		justify-content: center;
 	}
 
 	input[type="text"],
@@ -879,6 +887,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		display: none
 	}
 
 		ul.icons li {
